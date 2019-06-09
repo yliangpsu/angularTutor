@@ -1,0 +1,64 @@
+.container {
+  background: lawngreen;
+  /*position: relative;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.whiteBox {
+  background: white;
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  height: 300px;
+  width: 400px;
+  padding: 60px;
+}
+
+.textBox {
+  /*position: relative;*/
+  display: box;
+  top: 40px;
+  left: 40px;
+  /*background: gainsboro;*/
+  height: 40px;
+  width: 280px;
+  color: gainsboro;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.buttonSytle {
+  display: box;
+  background: limegreen;
+  color:white;
+  width: 280px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+}
+
+.textBtm{
+  margin: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center
+;
+}
+
+.text1{
+  /*margin-left: 5px;*/
+  color: gainsboro;
+  margin: 0 auto;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+.text2{
+  /*margin-left: 5px;*/
+  margin: 0 auto;
+  color: limegreen;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
