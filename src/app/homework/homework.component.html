@@ -1,0 +1,57 @@
+<!--<h2>counter test</h2>-->
+<!--<div>{{counter}}</div>-->
+<!--<button (click) = "counterMinus()"> minus one</button>-->
+<!--<button style = "margin-left: 10px" (click) = "counterReset()"> reset</button>-->
+
+
+<!--<h4>input box</h4>-->
+<!--<div>-->
+<!--  <span>input name</span>-->
+<!--  <input type = "text" [(ngModel)] = "name">-->
+<!--  <span>{{name}}</span>-->
+<!--</div>-->
+
+<!--<button ng-click="count = count + 1" ng-init="count=0">-->
+<!--  Increment-->
+<!--</button>-->
+
+<!--<div>The Current Count is {{count}}</div>-->
+
+<div class = "startText">{{cookMsg}}</div>
+
+<div class = "container">
+  <div class = "menu">
+    <p style="text-align: center">Meat</p>
+    <button (click) = "getChicken()" style="margin: 10px"> chicken </button>
+    <button (click)="getFish()" style = "margin: 10px"> fish
+    </button>
+    <button (click)="getPork()" style = "margin: 10px"> pork
+    </button>
+     <button (click)="getBeef()" style = "margin: 10px"> beef
+    </button>
+
+    <div style="text-align: right">{{meat}}</div>
+  </div>
+
+  <div class = "menu">
+    <p style="text-align: center">Veggie</p>
+    <button (click) = "getTofu()" style = "margin: 10px"> tofu
+    </button>
+    <button (click)="getCarrot()" style = "margin: 10px"> carrot
+    </button>
+    <button (click)="getTomato()" style = "margin: 10px"> tomato
+    </button>
+    <div style="text-align:right">{{veggie}}</div>
+  </div>
+</div>
+
+<h4></h4>
+
+<div class = "container2">
+  <div>
+    <button (click) = "cook()"> cook </button>
+  </div>
+  <div>
+    <button (click) = "reset()">reset</button>
+  </div>
+</div>
